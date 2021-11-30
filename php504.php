@@ -17,11 +17,3 @@ for($row=0;$row<=2;$row++){
 foreach($name as $i){
     echo $i."<br />";
 }
-
-echo "<h1>";
-foreach ($emp as $value) {
-    echo $value[0]."<br />";
-    echo $value[1]."<br />";
-    echo $value[2]."<br />";
-}
-echo "</h1>";
